@@ -1,0 +1,371 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Star Bus</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/carousel.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/owl.carousel.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() {
+
+      var owl = $("#owl-demo");
+
+      owl.owlCarousel({
+
+      items :4, //10 items above 1000px browser width
+      itemsDesktop : [1000,4], //5 items between 1000px and 901px
+      itemsDesktopSmall : [900,3], // 3 items betweem 900px and 601px
+      itemsTablet: [600,2], //2 items between 600 and 0;
+      itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+      
+      });
+
+      // Custom Navigation Events
+      $(".next").click(function(){
+        owl.trigger('owl.next');
+      })
+      $(".prev").click(function(){
+        owl.trigger('owl.prev');
+      })
+
+    });
+    </script>
+  <script type="text/javascript">
+  // Login Form
+	$(function() {
+	    var button = $('#loginButton');
+	    var box = $('#loginBox');
+	    var form = $('#loginForm');
+	    button.removeAttr('href');
+	    button.mouseup(function(login) {
+	        box.toggle();
+	        button.toggleClass('active');
+	    });
+	    form.mouseup(function() { 
+	        return false;
+	    });
+	    $(this).mouseup(function(login) {
+	        if(!($(login.target).parent('#loginButton').length > 0)) {
+	            button.removeClass('active');
+	            box.hide();
+	        }
+	    });
+	});
+  </script>
+</head>
+<body>
+   <!-- Start Header -->
+       <div class="header">	
+   	 	    <div class="header-top">
+   	 	      <div class="wrap"> 
+   	 	    	 <div class="header-top-left">
+   	 	    	 	<p>Support: 080-22556784</p>
+   	 	    	 </div>
+   				  <div class="header-top-right">
+				        <ul>
+				
+				            <li><a href ="faq.html"><i class="fa fa-comments"></i>FAQs</a></li>
+<li><a href ="support.html">Support</a></li>
+				             <li><a href ="tc.html">Terms & Conditions</a></li><li><a href="admin.html">Admin</a></li>
+				         </ul>
+				    </div>
+			      <div class="clear"></div>
+			     </div> 
+		      </div>
+             <div class="header-logo-nav">
+             	  <div class="navbar navbar-inverse navbar-static-top nav-bg" role="navigation">
+				      <div class="container">
+				        <div class="navbar-header">
+				          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				            <span class="sr-only">Toggle navigation</span>
+				            <span class="icon-bar"></span>
+				            <span class="icon-bar"></span>
+				            <span class="icon-bar"></span>
+				          </button>
+				         <div class="logo"> <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" /></a></div>
+				          <div class="clear"></div>
+				        </div>
+				        <div class="collapse navbar-collapse">
+				          <ul class=" menu nav navbar-nav">
+				            <li class="active"><a href="index.html">Home</a></li>
+   					 <li ><a href="about.html">About us</a></li>
+					<li><a href="mybookings.html">My Booking</a></li>
+					 <li><a href="cancellation.html">Cancellation</a></li>
+					<li><a href="print.html">Print Ticket</a></li>
+				            <li><a href="contact.html">Contact Us</a></li>
+
+				          </ul>
+				        </div><!--/.nav-collapse -->
+				      </div>
+				    </div>
+		         <div class="clear"></div>
+	        </div>
+	        <div class="header-banner">
+	        	
+			    <!-- Carousel ================================================== -->
+			    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+			     <div class="wrap">
+			      <div class="carousel-inner">
+			        <div class="item active">
+			           <div class="row">
+				        <div class="col-md-6">
+				          <div class="banner-desc">
+				        	<h2>A right place for Bus Booking</h2>
+				           <ul>
+				          	<li><span><i class="fa fa-chevron-right"></i>more than 12,3456 customers trust us</span></li>
+				            <li><span><i class="fa fa-chevron-right"></i>24/7 support</span></li>
+				            <li><span><i class="fa fa-chevron-right"></i>performance, facility, comfort</span></li>
+				          </ul>
+				          <div class="see-features"><center><a href="book.html">Book Tickets Now</a></center></div>
+				          </div>
+				        </div>
+				        <div class="col-md-6">
+				        	<div class="banner-img">
+			                <img src="images/bus2.jpg" alt="First slide" />
+			             </div>
+				        </div>
+				      </div>
+			        </div>
+			         <div class="item">
+			         
+			          <div class="row">
+			          	<div class="col-md-6">
+				        	<div class="banner-img">
+			                <img src="images/bus.jpg" alt="First slide" />
+			             </div>
+				        </div>
+				        <div class="col-md-6">
+				        	<div class="banner-desc">
+				        	<h2>A right place for Bus Booking</h2>
+				          <ul>
+				          	<li><span><i class="fa fa-chevron-right"></i>more than 12,3456 customers trust us</span></li>
+				            <li><span><i class="fa fa-chevron-right"></i>24/7 support</span></li>
+				            <li><span><i class="fa fa-chevron-right"></i>performance, facility, comfort</span></li>
+				          </ul>
+				          <div class="see-features"><center><a href="book.html">Book Tickets Now</a></center></div>
+				          </div>
+				         </div>
+				      </div>
+			        </div>
+			       </div>
+			      </div>
+			      <a class="left carousel-control left-arrow" href="#myCarousel" data-slide="prev"><span><i class="fa fa-chevron-left"></i></span></a>
+			      <a class="right carousel-control right-arrow" href="#myCarousel" data-slide="next"><span><i class="fa fa-chevron-right"></i></span></a>
+			    </div><!-- /.carousel -->
+	           </div>
+	          <span class="big-arrow"></span>
+             </div>
+   <!-- End Header -->
+   
+   <!-- Start Main Content -->
+	 <div class="main">	 
+	 	 <div class="wrap">
+	 	<div class="features">
+	 		<div class="row">
+		        <div class="col-lg-4">
+		          <img src="images/easy booking.png" alt="" />
+		          <h2>Easy Booking</h2>
+		          <p>Best features and fast access to the database which gives you easy booking facilities and thus time efficient. </p>
+		          
+		        </div><!-- /.col-lg-4 -->
+		        <div class="col-lg-4">
+		        <img src="images/bus facility.png" alt="" />
+		          <h2>Great Bus Facility</h2>
+		          <p>We will only guide you those buses which are having high class facility and has best safety measures. </p>
+		         
+		        </div><!-- /.col-lg-4 -->
+		        <div class="col-lg-4">
+		          <img src="images/security.png" alt="" />
+		          <h2>Total Security</h2>
+		          <p>We will not disclose any of the personal details of the custmores and also bank details. </p>
+		          
+		        </div><!-- /.col-lg-4 -->
+		      </div>
+		   </div>
+		   
+		   <div class="support">
+		   	<div class="container-fluid">
+			  <div class="row">
+			   <div class="col-lg-10">
+			   	<h2>24/7 Service & Support</h2>
+			   	<p>Our toll free number will be available 24/7 in case of any emergency.</p>
+			   </div>
+			    <div class="col-lg-2">
+			      
+			   </div>
+			  </div>
+			</div>
+		   </div>
+		   
+		   <div class="list-performance">
+		   	 <div class="row">
+			   <div class="col-lg-6">
+			   	<h2>What We Provide</h2>
+			   	<ul>
+			   		<li><i class="fa fa-check"></i>One of the best Bus Booking facilities in India </li>
+			   		<li><i class="fa fa-check"></i>Cheaper rate for Children and Senior Citizens</li>
+			   		<li><i class="fa fa-check"></i>Total Customer satisfaction</li>
+			   		<li><i class="fa fa-check"></i>Rapid Booking facilities</li>
+			   		
+			   	</ul>
+			   </div>
+			    <div class="col-lg-6">
+			     
+			     
+			     	
+			     </ul>
+			   </div>
+			 </div>
+		   </div>
+		 </div>  
+		 <div class="testimonials-news">
+		   <div class="clients">
+		   	 <h2>What Our Customers are Saying</h2>
+		   	     <div class="testimonials">
+		   	      <div id="carousel-demo">
+		   	      	<div class="wrap">
+		                <div id="owl-demo" class="owl-carousel">		                
+		                <div class="item">
+		                	<img class="img-circle" src="images/man1-400x400.jpg" alt="" />
+		                	<h3>Utkarsh Raj</h3>
+		                	<p>“Fast and Good booking facilities.”</p>
+		                </div>
+		                 <div class="item">
+		                	<img class="img-circle" src="images/man2.jpg" alt="" />
+		                	<h3>Naveen Jain</h3>
+		                	<p>“Best refunding facilities.”</p>
+		                </div>
+		                 <div class="item">
+		                	<img class="img-circle" src="images/man3-400x400.jpg" alt="" />
+		                	<h3>Krishna</h3>
+		                	<p>“Great service available at cheaper rates.”</p>
+		                </div>
+		                 <div class="item">
+		                	<img class="img-circle" src="images/women-400x400.jpg" alt="" />
+		                	<h3>Karishma Rathode</h3>
+		                	<p>“Not bad.But, can improvise.”</p>
+		                </div>
+		                 <div class="item">
+		                	<img class="img-circle" src="images/man4-400x400.jpg" alt="" />
+		                	<h3>Shrey Agarwal</h3>
+		                	<p>“Festival offers are amazing.”</p>
+		                </div>
+		               </div>
+		              </div>
+		               <div class="customNavigation">
+		                <a class="btn prev"><i class="fa fa-chevron-left"></i></a>
+		                <a class="btn next"><i class="fa fa-chevron-right"></i></a>             
+		              </div>
+		         </div>
+		      </div>
+	       </div>
+	       
+	      <div class="news">
+	      	<div class="wrap">
+	      	  <h2>News</h2>
+	      	  <div class="row">
+		        <div class="col-lg-3 news-grid">
+		          <img src="images/bus5_2-612x311.jpg" alt="" />
+		          <div class="news-desc">
+		          <h2>Flash News</h2>
+		          <p>Deepavali offers 20% off for those <br>who have booked more than <br>10 times in our website.</p>
+		            <div class="news-desc-bottom">
+		               <div class="clear"></div>
+		            </div>
+		            <div class="image-icon"><span><i class="fa fa-align-left"></i></span></div>
+		          </div>
+		        </div><!-- /.col-lg-4 -->
+		        <div class="col-lg-3 news-grid news-grid-middle">
+		        <img src="images/bus4.jpg" alt="" />
+		         <div class="news-desc">
+		          <h2>Recent News</h2>
+		          <p> Volvo from Bangalore to Mangalore for today has been canceled due to land slide in charmudi ghat. Please cope up with the situation.</p>
+		            <div class="news-desc-bottom">
+		               <div class="clear"></div>
+		            </div>
+		            <div class="image-icon"><span><i class="fa fa-align-left"></i></span></div>
+		          </div>
+		        </div><!-- /.col-lg-4 -->
+		        <div class="col-lg-3 news-grid">
+		          <img src="images/bus3-612x311.png" alt="" />
+		         <div class="news-desc">
+		          <h2>Cancellation News</h2>
+		          <p>Cancellation is allowed. But only 80% of the<br> total amout paid will be credited <br> back to your account .</p>
+		            <div class="news-desc-bottom">
+		               <div class="clear"></div>
+		            </div>
+		            <div class="image-icon"><span><i class="fa fa-align-left"></i></span></div>
+		          </div>
+		        </div><!-- /.col-lg-4 -->
+		      </div>
+	      	 </div>
+	      </div>
+	 </div>
+    </div>
+   <!-- End Main Content -->
+	   
+ <!-- Start Footer -->
+  <span class="footer-arrow"></span>
+       <div class="footer">	  
+       	 <div class="wrap">	      
+		  <div class="row">
+			   <div class="col-lg-6">
+			   	<h2>About STAR Bus Booking</h2>
+			   	<p>Star Bus  is a registerd online bus booking website by the Our Star team. Any issues can be brought up to the judicial of the Bangalore High Court, Bangalore.  </p>
+			    <ul class="links">
+			    	<li><a href="about.html">About</a> /</li>
+			    	<li><a href="#">Term of Services</a> </li>
+			    	
+			    </ul> 
+			   </div>
+			    <div class="col-lg-6">
+			  
+			     <div class="products-list">
+			     <ul>
+			     	
+			     </ul>
+			     <ul>	                         
+			   
+			     </ul>
+			     <div class="clear"></div>
+			    </div>
+			     <div class="subscribe">
+			    	<form>
+			    		<input type="text" placeholder="youremail@domain.com" />
+			    		<input type="submit" value="Subscribe" />
+			    	</form>
+			    </div>
+			   </div>
+			  </div>
+			 </div>
+		   </div>
+			 <div class="footer-bottom">
+			 	<div class="wrap">
+			 	<div class="copy-right">
+			 		<p>Star Bus booking Copyright &copy; 2002-2015  all right reserved. </p>
+			 	</div>
+			 	<div class="social-icons">
+			 		<ul>
+			 			<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+			 			<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+			 			<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+			 			<li><a href="#"><i class="fa fa-rss"></i></a></li>
+			 			<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+			 		</ul>
+			 	</div>
+			 	<div class="clear"></div>
+			 </div>
+	       </div>
+  <!-- End Footer -->
+  </body>
+</html>
