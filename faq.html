@@ -1,0 +1,237 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Star Bus</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/carousel.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/owl.carousel.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() {
+
+      var owl = $("#owl-demo");
+
+      owl.owlCarousel({
+
+      items :4, //10 items above 1000px browser width
+      itemsDesktop : [1000,4], //5 items between 1000px and 901px
+      itemsDesktopSmall : [900,3], // 3 items betweem 900px and 601px
+      itemsTablet: [600,2], //2 items between 600 and 0;
+      itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+      
+      });
+
+      // Custom Navigation Events
+      $(".next").click(function(){
+        owl.trigger('owl.next');
+      })
+      $(".prev").click(function(){
+        owl.trigger('owl.prev');
+      })
+
+    });
+    </script>
+  <script type="text/javascript">
+  // Login Form
+	$(function() {
+	    var button = $('#loginButton');
+	    var box = $('#loginBox');
+	    var form = $('#loginForm');
+	    button.removeAttr('href');
+	    button.mouseup(function(login) {
+	        box.toggle();
+	        button.toggleClass('active');
+	    });
+	    form.mouseup(function() { 
+	        return false;
+	    });
+	    $(this).mouseup(function(login) {
+	        if(!($(login.target).parent('#loginButton').length > 0)) {
+	            button.removeClass('active');
+	            box.hide();
+	        }
+	    });
+	});
+  </script>
+</head>
+<body>
+   <!-- Start Header -->
+       <div class="header">	
+   	 	    <div class="header-top">
+   	 	      <div class="wrap"> 
+   	 	    	 <div class="header-top-left">
+   	 	    	 	<p>Support: 080-22556784</p>
+   	 	    	 </div>
+   				  <div class="header-top-right">
+				         <ul>
+				
+				            <li><a href ="faq.html"><i class="fa fa-comments"></i>FAQs</a></li>
+<li><a href ="support.html">Support</a></li>
+				             <li><a href ="tc.html">Terms & Conditions</a></li><li><a href="admin.html">Admin</a></li>
+				         </ul>
+				    </div>
+			      <div class="clear"></div>
+			     </div> 
+		      </div>
+             <div class="header-logo-nav">
+             	  <div class="navbar navbar-inverse navbar-static-top nav-bg" role="navigation">
+				      <div class="container">
+				        <div class="navbar-header">
+				          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				            <span class="sr-only">Toggle navigation</span>
+				            <span class="icon-bar"></span>
+				            <span class="icon-bar"></span>
+				            <span class="icon-bar"></span>
+				          </button>
+				         <div class="logo"> <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" /></a></div>
+				          <div class="clear"></div>
+				        </div>
+				        <div class="collapse navbar-collapse">
+				          <ul class=" menu nav navbar-nav">
+				            <li ><a href="index.html">Home</a></li>
+   					 <li ><a href="about.html">About us</a></li>
+					<li><a href="mybookings.html">My Booking</a></li>
+					 <li><a href="cancellation.html">Cancellation</a></li>
+					<li><a href="print.html">Print Ticket</a></li>
+				            <li><a href="contact.html">Contact Us</a></li>
+
+				          </ul>
+				        </div><!--/.nav-collapse -->
+				      </div>
+				    </div>
+		         <div class="clear"></div>
+	        </div>
+           </div>
+   <!-- End Header -->
+   
+   <!-- Start Main Content -->
+	 <div class="main">	 
+	 	 <div class="wrap">
+	 	 	 <div class="col-lg-12">
+	 	  <div class="about-desc">
+	 		 <h2>FAQs</h2>
+	 	   How do I register with Star Bus?<br>
+<br>If you want to register now, please click here. If you want to continue booking as a guest user, we will send you your temporary registration/login details by email.
+
+<br>Why should I register with Star Bus?
+<br>While you can book on Star Bus.com as a guest user, we recommend you register with us to make the process faster and more convenient. You won't have to spend time typing your details every time you make a booking. You will also get priority access to our travel deals by email, before anyone else.
+
+<br>How I change my password?
+<br>Go to My Bookings and sign in to your account. In "My Profile", click "Change Password" and reset your password.
+
+<br>How do I sign in to my account if I forget my password?
+<br>If you've forgotten your password, go to My Bookings on Star Bus.com. Click "Forgot Password", provide your email address and we'll send you an email with instructions.
+
+<br>How do I edit my account information?
+<br>Sign in to your account from the My Bookings section. Go to "My Profile"and change or add more details.
+
+<br>Can I book on Star Bus.com if I am a non-resident Indian?
+<br>As of now, Star Bus.com caters to Indian residents only.
+
+<br>Can I speak to someone in Customer Support?
+<br>Star Bus offers 24x7 customer support. You can call us at 955 5800 800 (all networks).
+<br> You can also write to our customer support team and someone will get back to you within 4 hours of your inquiry.
+
+
+
+
+
+
+<br>What payment options does Star Bus have?
+<br>Currently we accept payments using credit cards, direct bank debits and ITZ Cash card.
+
+<br>How do I know that my credit card information is safe on your site?
+<br>Star Bus is a VeriSign Secure Site. Any information you enter when transacting over Star Bus is sent in a Secure Socket Layer (SSL) session and is encrypted to protect you against unintentional information disclosure to third parties. You will notice that when you move from the passenger information page to the payment page, the url changes from http:// to https://. This shows that you are now on a secure channel.
+
+<br>What Is the Card Verification Number (CVV) on my credit card?
+<br>The Security Code is an important new security feature established by credit card companies in an attempt to further reduce the risk of Internet fraud. This number never appears on sales receipts or billing statements and it is only found on the card itself. The cardholder is required to enter the code number at the time of the transaction to verify that the card is in their possession.
+
+<br>Where is the Card Verification Number (CVV) located on my credit card?
+<br>Visa/MasterCard: Three-digit code after the last four digits of your credit card number on the back of the card within the signature field. American Express: Four-digit number on the front of the card on the right hand side above the card number.
+
+<br>Under what name will my purchase be charged on the credit card statement?
+<br>Your purchase will be charged under Star Bus Online Pvt. Ltd
+
+
+
+
+    </div>
+		  </div> 	   
+		 
+		 <div class="testimonials-news">
+	      <div class="news partners">
+	      	<div class="wrap">
+	      	  <div class="row">
+		        </div><!-- /.col-lg-4 -->
+		      </div>
+	      	 </div>
+	      </div>
+	 </div>
+    </div>
+   <!-- End Main Content -->
+	   
+ <!-- Start Footer -->
+  <span class="footer-arrow"></span>
+       <div class="footer">	  
+       	 <div class="wrap">	      
+		  <div class="row">
+			   <div class="col-lg-6">
+			   	<h2>About Online Bus Booking</h2>
+			   	<p>Star Bus is a registerd online bus booking website by the Our Star team. Any issues can be brought up to the judicial of the Bangalore High Court, Bangalore.  </p>
+			    <ul class="links">
+			    	<li><a href="about.html">About</a> /</li>
+			    	<li><a href="tc.html">Term of Services</a> </li>
+			    	
+			    </ul> 
+			   </div>
+			    <div class="col-lg-6">
+			  
+			     <div class="products-list">
+			     <ul>
+			     	
+			     </ul>
+			     <ul>	                         
+			   
+			     </ul>
+			     <div class="clear"></div>
+			    </div>
+			     <div class="subscribe">
+			    	<form>
+			    		<input type="text" placeholder="youremail@domain.com" />
+			    		<input type="submit" value="Subscribe" />
+			    	</form>
+			    </div>
+			   </div>
+			  </div>
+			 </div>
+		   </div>
+			 <div class="footer-bottom">
+			 	<div class="wrap">
+			 	<div class="copy-right">
+			 		<p>Star Bus booking Copyright &copy; 2002-2015  all right reserved. </p>
+			 	</div>
+			 	<div class="social-icons">
+			 		<ul>
+			 			<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+			 			<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+			 			<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+			 			<li><a href="#"><i class="fa fa-rss"></i></a></li>
+			 			<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+			 		</ul>
+			 	</div>
+			 	<div class="clear"></div>
+			 </div>
+	       </div>
+  <!-- End Footer -->
+  </body>
+</html>

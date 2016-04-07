@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Star Bus</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/carousel.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/owl.carousel.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() {
+
+      var owl = $("#owl-demo");
+
+      owl.owlCarousel({
+
+      items :4, //10 items above 1000px browser width
+      itemsDesktop : [1000,4], //5 items between 1000px and 901px
+      itemsDesktopSmall : [900,3], // 3 items betweem 900px and 601px
+      itemsTablet: [600,2], //2 items between 600 and 0;
+      itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+      
+      });
+
+      // Custom Navigation Events
+      $(".next").click(function(){
+        owl.trigger('owl.next');
+      })
+      $(".prev").click(function(){
+        owl.trigger('owl.prev');
+      })
+
+    });
+    </script>
+  <script type="text/javascript">
+  // Login Form
+	$(function() {
+	    var button = $('#loginButton');
+	    var box = $('#loginBox');
+	    var form = $('#loginForm');
+	    button.removeAttr('href');
+	    button.mouseup(function(login) {
+	        box.toggle();
+	        button.toggleClass('active');
+	    });
+	    form.mouseup(function() { 
+	        return false;
+	    });
+	    $(this).mouseup(function(login) {
+	        if(!($(login.target).parent('#loginButton').length > 0)) {
+	            button.removeClass('active');
+	            box.hide();
+	        }
+	    });
+	});
+  </script>
+</head>
+<body>
+   <!-- Start Header -->
+       <div class="header">	
+   	 	    <div class="header-top">
+   	 	      <div class="wrap"> 
+   	 	    	 <div class="header-top-left">
+   	 	    	 	<p>Support: 080-22556784</p>
+   	 	    	 </div>
+   				  <div class="header-top-right">
+				         <ul>
+				
+				            <li><a href ="faq.html"><i class="fa fa-comments"></i>FAQs</a></li>
+<li><a href ="support.html">Support</a></li>
+				             <li><a href ="tc.html">Terms & Conditions</a></li><li><a href="admin.html">Admin</a></li>
+				         </ul>
+				    </div>
+			      <div class="clear"></div>
+			     </div> 
+		      </div>
+             <div class="header-logo-nav">
+             	  <div class="navbar navbar-inverse navbar-static-top nav-bg" role="navigation">
+				      <div class="container">
+				        <div class="navbar-header">
+				          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				            <span class="sr-only">Toggle navigation</span>
+				            <span class="icon-bar"></span>
+				            <span class="icon-bar"></span>
+				            <span class="icon-bar"></span>
+				          </button>
+				         <div class="logo"> <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" /></a></div>
+				          <div class="clear"></div>
+				        </div>
+				        <div class="collapse navbar-collapse">
+				          <ul class=" menu nav navbar-nav">
+				            <li ><a href="index.html">Home</a></li>
+   					 <li class="active"><a href="about.html">About us</a></li>
+					<li><a href="mybookings.html">My Booking</a></li>
+					 <li><a href="cancellation.html">Cancellation</a></li>
+					<li><a href="print.html">Print Ticket</a></li>
+				            <li><a href="contact.html">Contact Us</a></li>
+
+				          </ul>
+				        </div><!--/.nav-collapse -->
+				      </div>
+				    </div>
+		         <div class="clear"></div>
+	        </div>
+           </div>
+   <!-- End Header -->
+   
+   <!-- Start Main Content -->
+	 <div class="main">	 
+	 	 <div class="wrap">
+	 	 	 <div class="col-lg-12">
+	 	  <div class="about-desc">
+	 		 <h2>About Us</h2>
+	 	    <p>Launched in August 2006, Star Bus is today ranked as the leading provider of consumer-direct travel services in India. It has emerged as the most trusted travel brand in India, and has won three awards at the India Tourism Awards felicitated for "Outstanding performance as a Domestic Tour Operator(Rest of India)","Outstanding performance as a Domestic Tour Operator in Jammu and Kashmir" and "Outstanding performance as an Inbound Tour Operator-Cat C" amongst many others over the years.
+Over the span of 8 years, Star Bus made 3 acquisition namely, ticket consolidator Travel Services International (TSI) in October 2010, global distribution system (GDS) provider MagicRooms.in, and Indian events and entertainment portal BuzzInTown.com in July 2012. It also acquired 100% stake in Travelguru.com in 2012.
+Based in Gurgaon, India, Star Bus is a one-stop-shop for all travel-related services. A leading consolidator of travel products, Star Bus provides reservation facility around the world. Through continued excellence in providing travel solutions, responses to booking travel online through Yatra.com have also reached new heights with the company doing 20,000 domestic tickets and holiday packages a day.
+Positioned as a brand that believes in "Creating Happy Travellers", Star Bus provides information, pricing, availability, and booking facility for domestic purpose. Customers can access Star Bus through multiple ways: through our user-friendly website, mobile optimised WAP site and mobile applications, 24x7 multi-lingual call centre, a countrywide network of Holiday Lounges and Star Bus Express stores. Star Bus provides booking facility for all the popular as well as exotic national destinations.</p>
+          </div>
+		  </div> 	   
+		 
+		 <div class="testimonials-news">
+	      <div class="news partners">
+	      	<div class="wrap">
+	      	  <div class="row">
+		        </div><!-- /.col-lg-4 -->
+		      </div>
+	      	 </div>
+	      </div>
+	 </div>
+    </div>
+   <!-- End Main Content -->
+	   
+  <!-- Start Footer -->
+  <span class="footer-arrow"></span>
+       <div class="footer">	  
+       	 <div class="wrap">	      
+		  <div class="row">
+			   <div class="col-lg-6">
+			   	<h2>About STAR Bus Booking</h2>
+			   	<p>Star Bus  is a registerd online bus booking website by the Our Star team. Any issues can be brought up to the judicial of the Bangalore High Court, Bangalore.  </p>
+			    <ul class="links">
+			    	<li><a href="about.html">About</a> /</li>
+			    	<li><a href="#">Term of Services</a> </li>
+			    	
+			    </ul> 
+			   </div>
+			    <div class="col-lg-6">
+			  
+			     <div class="products-list">
+			     <ul>
+			     	
+			     </ul>
+			     <ul>	                         
+			   
+			     </ul>
+			     <div class="clear"></div>
+			    </div>
+			     <div class="subscribe">
+			    	<form>
+			    		<input type="text" placeholder="youremail@domain.com" />
+			    		<input type="submit" value="Subscribe" />
+			    	</form>
+			    </div>
+			   </div>
+			  </div>
+			 </div>
+		   </div>
+			 <div class="footer-bottom">
+			 	<div class="wrap">
+			 	<div class="copy-right">
+			 		<p>Star Bus booking Copyright &copy; 2002-2015  all right reserved. </p>
+			 	</div>
+			 	<div class="social-icons">
+			 		<ul>
+			 			<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+			 			<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+			 			<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+			 			<li><a href="#"><i class="fa fa-rss"></i></a></li>
+			 			<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+			 		</ul>
+			 	</div>
+			 	<div class="clear"></div>
+			 </div>
+	       </div>
+  <!-- End Footer -->
+  </body>
+</html>
