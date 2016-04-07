@@ -1,0 +1,15 @@
+$sql="select *from seats where rid='$rid' ;
+$retval = mysqli_query( $con, $sql);
+if (!mysqli_query($con,$sql))
+	{
+  		die('Error: ' . mysqli_error($con));
+}
+
+$retval = mysqli_query( $con, $sql);
+
+if ($row['s1'] == ' ')
+$sqll = "UPDATE seats  SET s1 = '$pid';
+if (!mysqli_query($con,$sqll))
+	{
+  		die('Error: ' . mysqli_error($con));
+}

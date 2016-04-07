@@ -1,0 +1,25 @@
+$sql="select rid from seats";
+$retval=mysqli_query($con,$sql);
+$flag = 1;
+			
+if($flag == 1)
+{
+while($row=mysqli_fetch_array($retval,MYSQL_ASSOC))
+{
+	if($rid==$row['rid'])
+	{
+	echo"already exists";
+
+	}
+
+}
+
+}
+
+
+if($flag == 1){
+$sqllll="INSERT INTO seates(rid)
+VALUES ('$rid')";
+
+
+}

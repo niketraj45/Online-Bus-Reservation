@@ -1,0 +1,26 @@
+
+select bname, fromLoc,toLoc,dep_date,dep_time,type_ac,type_sl,fare,(b.maxseats-(select count(rid) from reserves where rid=r.rid)) as aval from bus b,route r where r.bid=b.bid and r.fromLoc='Ahmedabad' and r.toLoc= 'Bangalore' and r.dep_date = '2015-04-26' 
+
+
+
+
+
+
+?>
+(b.maxseats-(select count(rid) from reserves where rid=r.rid))
+<?php
+
+$no_of_tickets='';
+$bid='';
+
+
+if (isset($_POST[bid']))
+{
+$email_id=$_POST[bid'];
+}
+
+
+if (isset($_POST['no_of_tickets']))
+{
+$no_of_tickets=$_POST['no_of_tickets'];
+}
